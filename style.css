@@ -1,0 +1,35 @@
+#product-table {
+    width: 500px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#product-table td {
+    border: 1px solid black;
+    height: 30px;
+}
+
+#title-table {
+    background-color: chartreuse;
+}
+
+.btn-delete {
+    background-color: red;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn-update {
+    background-color: turquoise;
+    color: white;
+}
+
+#add-prroduct-form {
+    border: 1px solid red;
+    width: 300px;
+    background-color: wheat;
+}
+
+#add-prroduct-form input {
+    width: 90%;
+}

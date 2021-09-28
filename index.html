@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <table id="add-prroduct-form">
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" id="name">
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td><input type="text" id="price"></td>
+        </tr>
+        <tr>
+            <td>Auth</td>
+            <td><input type="text" id="auth"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button id="btn-add" onclick="addProduct()">Add</button>
+                <button id="btn-update" data-id="" onclick="editProduct()" hidden>Edit</button>
+            </td>
+        </tr>
+    </table>
+
+    <table id="product-table">
+        <tr id="title-table">
+            <td>STT</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Auth</td>
+            <td></td>
+        </tr>
+        <tbody id="list-product">
+
+        </tbody>
+    </table>
+
+    <script src="my.js"></script>
+</body>
+
+</html>
